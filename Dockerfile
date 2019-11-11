@@ -1,6 +1,6 @@
 FROM openjdk:8-alpine
 
-ENV PMD_VERSION 6.14.0
+ENV PMD_VERSION 6.19.0
 
 RUN apk add --update --no-cache wget unzip
 RUN mkdir -p /opt
