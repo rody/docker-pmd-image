@@ -28,9 +28,9 @@ ex: Apex analysis with builtin rulesets
 
   - `/src/` - default working directory
 
-#### Environment Variables
+#### Build Args
 
-  - `PMD_VERSION` - PMD version used to build this image
+  - `PMD_VERSION` - PMD version used to build this image. If omitted, the hardcoded version in the Dockerfile will be downloaded.
 
 ## Contributing
 
