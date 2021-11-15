@@ -14,9 +14,5 @@ RUN cd /opt \
 
 RUN apk add --update --no-cache dumb-init
 
-RUN mkdir /src
-VOLUME /src
-WORKDIR /src
-
 ENTRYPOINT [ "/usr/bin/dumb-init", "/usr/bin/java", "-classpath", "/opt/pmd/lib/*", "net.sourceforge.pmd.PMD" ]
 CMD ""
