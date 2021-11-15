@@ -18,4 +18,5 @@ RUN mkdir /src
 VOLUME /src
 WORKDIR /src
 
-CMD [ "/usr/bin/dumb-init", "/usr/bin/java", "-classpath", "/opt/pmd/lib/*", "net.sourceforge.pmd.PMD" ]
+ENTRYPOINT [ "/usr/bin/dumb-init", "/usr/bin/java", "-classpath", "/opt/pmd/lib/*", "net.sourceforge.pmd.PMD" ]
+CMD ""

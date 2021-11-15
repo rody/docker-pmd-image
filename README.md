@@ -22,7 +22,7 @@ ex: Java analysis with custom rulesets
 
 ex: Apex analysis with builtin rulesets
 
-`docker run -v $PWD:/src rawdee/pmd -language apex -dir . -rulesets rulesets/apex/rulset.xml`
+`docker run -v $PWD:/src rawdee/pmd -language apex -dir . -rulesets rulesets/apex/ruleset.xml`
 
 #### Volumes
 
