@@ -18,11 +18,11 @@ In order to run this container you'll need docker installed.
 
 ex: Java analysis with custom rulesets
 
-`docker run -v $PWD:/src rawdee/pmd pmd -language java -dir . -rulesets ./my-rulesets.xml`
+`docker run -v $PWD:/src rawdee/pmd -language java -dir . -rulesets ./my-rulesets.xml`
 
 ex: Apex analysis with builtin rulesets
 
-`docker run -v $PWD:/src rawdee/pmd pmd -language apex -dir . -rulesets rulesets/apex/rulset.xml`
+`docker run -v $PWD:/src rawdee/pmd -language apex -dir . -rulesets rulesets/apex/ruleset.xml`
 
 #### Volumes
 
