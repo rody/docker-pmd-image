@@ -24,10 +24,6 @@ ex: Apex analysis with builtin rulesets
 
 `docker run -v $PWD:/src rawdee/pmd -language apex -dir . -rulesets rulesets/apex/ruleset.xml`
 
-#### Volumes
-
-  - `/src/` - default working directory
-
 #### Build Args
 
   - `PMD_VERSION` - PMD version used to build this image. If omitted, the hardcoded version in the Dockerfile will be downloaded.
